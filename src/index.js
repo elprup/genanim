@@ -1,10 +1,12 @@
 const renderLottie = require("puppeteer-lottie");
 
+animName = `paper-plane`;
+
 // Create an MP4 from a lottie animation
 (async () => {
   await renderLottie({
-    path: "fixtures/bodymovin.json",
-    output: "example.mp4",
+    path: `fixtures/${animName}.json`,
+    output: `mp4/${animName}.mp4`,
   });
 })();
 
