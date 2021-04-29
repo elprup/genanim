@@ -2,6 +2,14 @@
 
 Export AE json file to custom animation films.
 
+# Dev install
+TIPS: ONLY linux os is supported by now
+
+```
+$ sudo apt install chromium-browser -y
+$ npm install
+```
+
 ## Usage
 
 ```shell
