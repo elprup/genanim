@@ -8,7 +8,7 @@ TIPS: ONLY linux os is supported by now
 reference: https://dev.to/chis0m/installing-puppeteer-on-an-ubuntu-aws-ec2-instance-5o7
 
 ```shell
-# follow script is tested in ubuntu 18.04'
+# follow script is tested in ubuntu 18.04
 
 # install chrome
 $ sudo apt install chromium-browser -y
